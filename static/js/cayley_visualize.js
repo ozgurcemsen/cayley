@@ -106,8 +106,9 @@ $(function () {
 
         // Configure the algorithm
         sigmaGraph.configNoverlap({
-            nodeMargin: 2.0,
-            scaleNodes: 1
+            nodeMargin: 1.0,
+            scaleNodes: 5,
+            maxIterations: 1000,
         });
 
         sigmaGraph.startNoverlap();

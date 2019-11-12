@@ -32,11 +32,12 @@
 
   <div class="container-fluid">
     <div class="row row-offcanvas row-offcanvas-left">
-      {{template "sidebar"}}
+
       <!-- main area -->
-      <div class="col-sm-10 col-xs-12" id="main">
+      <div class="col-sm-12 col-xs-12" id="main">
         <div class="row">
           <div class="col-sm-12 col-xs-12 codecol">
+              {{template "sidebar"}}
             <textarea id="code">g.Emit("Hello World")</textarea>
           </div>
         </div>
